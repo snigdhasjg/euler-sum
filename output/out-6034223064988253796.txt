@@ -1,0 +1,16 @@
+List Length: 2
+Power Of Equation: 1
+Range Min: 1, Max: 100
+No Of Generation: 2000
+Mutation Rate: 0.2
+Crossover Rate: 0.2
+Population Size: 300
+Seed Range: 5
+
+Seed Value		points
+-------------------------------
+1				24 = 24
+2				61 = 61
+3				32 = 32
+4				3 = 3
+5				16 = 16

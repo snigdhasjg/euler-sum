@@ -1,21 +1,21 @@
 from pyevolve import G1DList, Consts, GSimpleGA, Selectors, Scaling, DBAdapters, Mutators
-from random import seed
 import MagicNumbers as mn
 
 
 def eval_func(genome):
     # iterate over the chromosome
     # The same as "score = len(filter(lambda x: x==0, genome))"
-    c = genome[len(genome) - 1] ** mn.powerOfEquation
+    lengthOfGenome = genome.getListSize()
+    c = genome[lengthOfGenome - 1] ** mn.powerOfEquation
 
     total = 0
-    for value in genome[:len(genome) - 1]:
+    for value in genome[:lengthOfGenome - 1]:
         total += value ** mn.powerOfEquation
 
     return abs(c - total)
 
 
-def main():
+def get_best_individual():
     # Genome instance, 1D List of 50 elements
     genome = G1DList.G1DList(mn.listLength)
 
@@ -48,4 +48,3 @@ def main():
 
     # Best individual
     return ga.bestIndividual()
-
