@@ -1,0 +1,9 @@
+listLength = 4  # type: int
+powerOfEquation = listLength - 1  # type: int
+rangeMin = 1  # type: int
+rangeMax = 50  # type: int
+noOfGeneration = 2000  # type: int
+mutationRate = 0.2  # type: float
+crossoverRate = 0.2  # type: float
+populationSize = 300  # type: int
+randomSeeding = 2  # type: int
