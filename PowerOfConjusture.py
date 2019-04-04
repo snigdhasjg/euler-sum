@@ -44,13 +44,8 @@ def main():
 
     # Do the evolution, with stats dump
     # frequency of 20 generations
-    ga.evolve(freq_stats=100)
+    ga.evolve()
 
     # Best individual
-    print ga.bestIndividual()
-
-
-if __name__ == "__main__":
-    seed(mn.randomSeeding)
-    main()
+    return ga.bestIndividual()
 
