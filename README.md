@@ -1,9 +1,17 @@
-# euler-sum
-My final year project about euler sum
+# Euler's sum of powers conjecture
+read more on [Wiki](https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture)
 
-read more `https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture`
+- - -
 
 ### Requirements
-> python 2.7
+* #### language
 
-> ```pip install -U -r requirements.txt```
+        python 2.7
+
+* #### library
+        Pyevolve
+
+- - -
+
+To install all the requirements 
+* `pip install -U -r requirements.txt`
